@@ -32,23 +32,23 @@
 
         <section class="slider">
             <div class="slides">
-                <div class="item" id="slid1">
-                    <img src=".//css/images/s1.jpg" alt="" />
+                <div class="item active" id="slid1">
+                    <img src=".//css/images/s3.jpg" alt="" />
                     <span>آهنگ را واقعی تر از آنچه هست گوش بده...</span>
                 </div>
                 <div class="item" id="slid2">
-                    <img src=".//css/images/s2.jpg" alt="" />
+                    <img src=".//css/images/s1.jpg" alt="" />
                     <span id="spanBlack">آهنگ را واقعی تر از آنچه هست گوش بده...</span>
                 </div>
-                <div class="item active" id="slid3">
-                    <img src=".//css/images/s3.jpg" alt="" />
+                <div class="item" id="slid3">
+                    <img src=".//css/images/s2.jpg" alt="" />
                     <span>آهنگ را واقعی تر از آنچه هست گوش بده...</span>
                 </div>
             </div>
             <div class="buttons">
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
+                <i onclick="setSlide('slid1',1)" class="fas fa-circle"></i>
+                <i onclick="setSlide('slid2',2)" class="fas fa-circle"></i>
+                <i onclick="setSlide('slid3',3)" class="fas fa-circle"></i>
             </div>
         </section>
     </header>

@@ -1,11 +1,15 @@
 @font-face {
-    font-family: iran;
-    src: url(../fonts/iran.ttf);
+    font-family: "iransans";
+    src: url("../fonts/IRANSansMobile.eot");
+    src: url("../fonts/IRANSansMobile.eot") format("embedded-opentype"), url("../fonts/IRANSansMobile.woff2") format("woff2"), url("../fonts/IRANSansMobile.woff") format("woff"), url("../fonts/IRANSansMobile.ttf") format("truetype"), url("../fonts/IRANSansMobile.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 * {
-    direction: ltr;
-    font-family: iran;
+    direction: rtl;
+    font-family: iransans;
     box-sizing: border-box;
 }
 

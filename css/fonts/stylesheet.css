@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'IRANSansMobile';
+    src: url('IRANSansMobile.eot');
+    src: url('IRANSansMobile.eot?#iefix') format('embedded-opentype'),
+        url('IRANSansMobile.woff2') format('woff2'),
+        url('IRANSansMobile.woff') format('woff'),
+        url('IRANSansMobile.ttf') format('truetype'),
+        url('IRANSansMobile.svg#IRANSansMobile') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

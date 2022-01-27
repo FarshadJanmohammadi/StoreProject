@@ -2,6 +2,9 @@ header {
     font-size: 1em;
 }
 
+
+/* navigation section */
+
 header nav {
     display: flex;
     justify-content: space-between;
@@ -38,4 +41,57 @@ header nav .nav-left .register-login-btn a {
     color: #444;
     margin: 9px 4px 3px 5px;
     font-size: 0.9em;
+}
+
+
+/* slider section */
+
+header .slider {
+    position: relative;
+    font-size: 1em;
+}
+
+header .slider .slides {}
+
+header .slider .slides .item {
+    position: relative;
+    display: none;
+}
+
+header .slider .slides .item img {
+    width: 100%;
+}
+
+header .slider .slides .item span {
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    font-size: 1.5em;
+    z-index: 1;
+    color: rgba(12, 11, 11, 0.781);
+}
+
+#spanBlack {
+    color: white;
+}
+
+header .slider .slides .active {
+    display: block;
+}
+
+header .slider .buttons {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    z-index: 1;
+}
+
+header .slider .buttons i {
+    color: white;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+header .slider .buttons i:hover {
+    color: rgba(255, 255, 255, 0.63);
 }

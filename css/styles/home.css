@@ -77,6 +77,8 @@ header .slider .slides .item span {
 
 header .slider .slides .active {
     display: block;
+    animation-name: fadeIn;
+    animation-duration: 2s;
 }
 
 header .slider .buttons {

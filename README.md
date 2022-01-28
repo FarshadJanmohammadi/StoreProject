@@ -1,5 +1,5 @@
 
-# Project sore
+# Store Project
 
 An online store project done to demonstrate its programming capabilities
 

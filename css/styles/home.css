@@ -193,3 +193,90 @@ main {}
     color: white;
     padding-top: 3px;
 }
+
+.supper-offer-section {
+    padding: 20px;
+    font-size: 1em;
+}
+
+.supper-offer-box {
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+.supper-offer-box span[class="title"] {
+    background-color: #c0392b;
+    color: white;
+    padding: 8px 30px;
+    display: inline-block;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.supper-offer-box .body {}
+
+.supper-offer-box .body .image-container {
+    text-align: center;
+    padding: 30px;
+}
+
+.supper-offer-box .body .image-container img {
+    width: 100%;
+}
+
+.supper-offer-box .body .spesification {
+    padding: 30px 5px;
+}
+
+.supper-offer-box .body .spesification .price-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.supper-offer-box .body .spesification .price-row .price {
+    margin-left: 60px;
+    color: #444;
+    font-size: 1.2em;
+}
+
+.supper-offer-box .body .spesification .price-row .off {
+    background-color: #c0392b;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+
+.supper-offer-box .body .spesification .title {
+    margin: 40px 0px;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.4em;
+}
+
+.supper-offer-box .body .spesification .counter-dowm {
+    border-top: 1px solid rgba(0, 0, 0, 0.445);
+    margin: 10px 50px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #666;
+    font-size: 1.5em;
+}
+
+.supper-offer-box .body .spesification .remaining-time {
+    color: #777;
+    font-size: 0.8em;
+}
+
+.banner {
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.banner img {
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.26);
+    width: 80%;
+}

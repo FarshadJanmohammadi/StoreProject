@@ -1,4 +1,19 @@
 let slidINdex = 1;
+let remainintTime = 70000;
+
+function setTime() {
+    if (remainintTime == 0) return;
+    let h = Math.floor(remainintTime / 3600);
+    let m = Math.floor((remainintTime % 3600) / 60);
+    let s = (remainintTime % 3600) % 60;
+    document.querySelector("#hour").innerHTML = h;
+    document.querySelector("#minute").innerHTML = m;
+    document.querySelector("#secound").innerHTML = s;
+}
+setInterval(() => {
+    remainintTime -= 1;
+    setTime();
+}, 1000);
 
 function setSlide(input, index) {
     slidINdex = index;

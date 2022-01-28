@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,478 +14,522 @@
     <link rel="stylesheet" href="./css/styles/owl.theme.default.min.css" />
 
     <title>StoreProject</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <div class="nav-right">
-                <a href=""><i class="fas fa-home"></i></a>
-                <a href=""><i class="fas fa-shopping-cart"></i></a>
-                <a href=""><i class="fas fa-search"></i></a>
-                <a href=""><i class="fas fa-user"></i></a>
-            </div>
-            <div class="nav-left">
-                <div class="register-login-btn">
-                    <i class="fas fa-user"></i>
-                    <a href="#">ثبت‌نام / ورود</a>
-                </div>
-            </div>
-        </nav>
+      <nav>
+        <div class="nav-right">
+          <a href=""><i class="fas fa-home"></i></a>
+          <a href=""><i class="fas fa-shopping-cart"></i></a>
+          <a href=""><i class="fas fa-search"></i></a>
+          <a href=""><i class="fas fa-user"></i></a>
+        </div>
+        <div class="nav-left">
+          <div class="register-login-btn">
+            <i class="fas fa-user"></i>
+            <a href="#">ثبت‌نام / ورود</a>
+          </div>
+        </div>
+      </nav>
 
-        <section class="slider">
-            <div class="slides">
-                <div class="item active" id="slid1">
-                    <img src=".//css/images/s3.jpg" alt="" />
-                    <span>آهنگ را واقعی تر از آنچه هست گوش بده...</span>
-                </div>
-                <div class="item" id="slid2">
-                    <img src=".//css/images/s1.jpg" alt="" />
-                    <span>آهنگ را واقعی تر از آنچه هست گوش بده...</span>
-                </div>
-                <div class="item" id="slid3">
-                    <img src=".//css/images/s2.jpg" alt="" />
-                    <span id="spanBlack">آهنگ را واقعی تر از آنچه هست گوش بده...</span>
-                </div>
-            </div>
-            <div class="buttons">
-                <i onclick="setSlide('slid1',1)" class="fas fa-circle"></i>
-                <i onclick="setSlide('slid2',2)" class="fas fa-circle"></i>
-                <i onclick="setSlide('slid3',3)" class="fas fa-circle"></i>
-            </div>
-        </section>
+      <section class="slider">
+        <div class="slides">
+          <div class="item active" id="slide1">
+            <img src="./css/images/s3.jpg" alt="" />
+            <span>آهنگ ها رو زنده تر از اون چیزی که هستن گوش بده</span>
+          </div>
+          <div class="item" id="slide2">
+            <img src="./css/images/s1.jpg" alt="" />
+            <span> کیفیت صدایی که همیشه دنبالش بودی اینجاست</span>
+          </div>
+          <div class="item" id="slide3">
+            <img src="./css/images/s2.jpg" alt="" />
+            <span style="color: white">رویا هاتو با صدای بلند گوش بده</span>
+          </div>
+        </div>
+        <div class="buttons">
+          <i onclick="setSlide('slide1' , 1)" class="fas fa-circle"></i>
+          <i onclick="setSlide('slide2' , 2)" class="fas fa-circle"></i>
+          <i onclick="setSlide('slide3' , 3)" class="fas fa-circle"></i>
+        </div>
+      </section>
     </header>
     <main>
-        <section class="product-sec-new">
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="shoping-card">
-                        <div class="img-sec">
-                            <img src="./css/images/p1.jpg" alt="" />
-                            <span class="hot-offer">پیشنهاد ویژه</span>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="title">
-                            <p>هدست بی‌سیم فریو مدل T546</p>
-                        </div>
-                        <div class="buttons">
-                            <div class="right">
-                                <span class="price">۸۰۰ هزار تومان</span>
-                            </div>
-                            <div class="left">
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">علاقه</a>
-                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
-                                </div>
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">خرید</a>
-                                    <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i
-                    ></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <section class="product-sec-new">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./css/images/p1.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="shoping-card">
-                        <div class="img-sec">
-                            <img src="./css/images/p2.jpg" alt="" />
+              </div>
+              <div class="title">
+                <p>هدست بی‌سیم فریو مدل T546</p>
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۸۰۰ هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./css/images/p2.jpg" alt="" />
 
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
 
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="title">
-                            <p>هدست بی‌سیم ریو مدل T546</p>
-                        </div>
-                        <div class="buttons">
-                            <div class="right">
-                                <span class="price">۵۰۰ هزار تومان</span>
-                            </div>
-                            <div class="left">
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">علاقه</a>
-                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
-                                </div>
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">خرید</a>
-                                    <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i
-                    ></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  <i class="fas fa-star"></i>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="shoping-card">
-                        <div class="img-sec">
-                            <img src="./css/images/p3.jpg" alt="" />
-                            <span class="hot-offer">پیشنهاد ویژه</span>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="title">
-                            <p>هدست بی‌سیم تسکو مدل T546</p>
-                        </div>
-                        <div class="buttons">
-                            <div class="right">
-                                <span class="price">۳۰۰ هزار تومان</span>
-                            </div>
-                            <div class="left">
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">علاقه</a>
-                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
-                                </div>
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">خرید</a>
-                                    <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i
-                    ></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="title">
+                <p>هدست بی‌سیم ریو مدل T546</p>
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۵۰۰ هزار تومان</span>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="shoping-card">
-                        <div class="img-sec">
-                            <img src="./css/images/p4.jpg" alt="" />
-                            <span class="hot-offer">پیشنهاد ویژه</span>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./css/images/p3.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                <p>هدست بی‌سیم تسکو مدل T546</p>
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۳۰۰ هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./css/images/p4.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
 
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="title">
-                            <p>هدست بی‌سیم آیو مدل T546</p>
-                        </div>
-                        <div class="buttons">
-                            <div class="right">
-                                <span class="price">۴۰۰ هزار تومان</span>
-                            </div>
-                            <div class="left">
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">علاقه</a>
-                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
-                                </div>
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">خرید</a>
-                                    <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i
-                    ></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
                 </div>
+              </div>
+              <div class="title">
+                <p>هدست بی‌سیم آیو مدل T546</p>
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۴۰۰ هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
-        <section class="supper-offer-section">
-            <div class="row">
-                <div class="col-lg-9">
-                    <div class="supper-offer-box">
-                        <span class="title"> پیشنهاد شگفت انگیز </span>
-                        <div class="body">
-                            <div class="row">
-                                <div class="col-lg-4">
-                                    <div class="image-container">
-                                        <img src="./css/images/super-product.jpg" alt="" />
-                                    </div>
-                                </div>
-                                <div class="col-lg-8">
-                                    <div class="spesification">
-                                        <div class="price-row">
-                                            <div class="price">۱ ملیون تومان</div>
-                                            <div class="off">۶۰٪ تخفیف</div>
-                                        </div>
-                                        <div class="title">هدست Asues مدل Axir 703</div>
-                                        <div class="counter-dowm">
-                                            <span id="secounds">40</span>:
-                                            <span id="minutes">26</span>:
-                                            <span id="hours">19</span>
-                                        </div>
-                                        <div class="remaining-time">
-                                            زمان باقیمانده تا پایان سفارش
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+          </div>
+        </div>
+      </section>
+      <section class="supper-offer-section">
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="supper-offer-box">
+              <span class="title"> پیشنهاد شگفت انگیز </span>
+              <div class="body">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="image-container">
+                      <img src="./css/images/super-product.jpg" alt="" />
                     </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="banner">
-                        <img src="./css/images/friday.jpg" alt="" />
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="spesification">
+                      <div class="price-row">
+                        <div class="price">۱ ملیون تومان</div>
+                        <div class="off">۶۰٪ تخفیف</div>
+                      </div>
+                      <div class="title">هدست Asues مدل Axir 703</div>
+                      <div class="counter-dowm">
+                        <span id="seconds">40</span>:
+                        <span id="minutes">26</span>:
+                        <span id="hours">19</span>
+                      </div>
+                      <div class="remaining-time">
+                        زمان باقیمانده تا پایان سفارش
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-        <section class="dragble-list">
-            <div class="title">
-                <span> هندزفری ها</span>
+          </div>
+          <div class="col-lg-3">
+            <div class="banner">
+              <img src="./css/images/friday.jpg" alt="" />
             </div>
-            <div id="owl-product" class="owl-carousel owl-theme">
-                <div class="item">
-                    <div class="shoping-card">
-                        <div class="img-sec">
-                            <img src="./css/images/h1.jpg" alt="" />
-                            <span class="hot-offer">پیشنهاد ویژه</span>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="title">
-                            <p>هدست بی‌سیم فریو مدل T546</p>
-                        </div>
-                        <div class="buttons">
-                            <div class="right">
-                                <span class="price">۸۰۰ هزار تومان</span>
-                            </div>
-                            <div class="left">
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">علاقه</a>
-                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
-                                </div>
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">خرید</a>
-                                    <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i
-                    ></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          </div>
+        </div>
+      </section>
+      <section class="dragble-list">
+        <div class="title">
+          <span> هندزفری ها</span>
+        </div>
+        <div id="owl-product" class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./css/images/h1.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
                 </div>
-                <div class="item">
-                    <div class="shoping-card">
-                        <div class="img-sec">
-                            <img src="./css/images/h2.jpg" alt="" />
-                            <span class="hot-offer">پیشنهاد ویژه</span>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="title">
-                            <p>هدست بی‌سیم فریو مدل T546</p>
-                        </div>
-                        <div class="buttons">
-                            <div class="right">
-                                <span class="price">۸۰۰ هزار تومان</span>
-                            </div>
-                            <div class="left">
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">علاقه</a>
-                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
-                                </div>
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">خرید</a>
-                                    <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i
-                    ></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="title">
+                <p>هدست بی‌سیم فریو مدل T546</p>
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۸۰۰ هزار تومان</span>
                 </div>
-                <div class="item">
-                    <div class="shoping-card">
-                        <div class="img-sec">
-                            <img src="./css/images/h3.jpg" alt="" />
-                            <span class="hot-offer">پیشنهاد ویژه</span>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="title">
-                            <p>هدست بی‌سیم فریو مدل T546</p>
-                        </div>
-                        <div class="buttons">
-                            <div class="right">
-                                <span class="price">۸۰۰ هزار تومان</span>
-                            </div>
-                            <div class="left">
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">علاقه</a>
-                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
-                                </div>
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">خرید</a>
-                                    <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
                     ></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  </div>
                 </div>
-                <div class="item">
-                    <div class="shoping-card">
-                        <div class="img-sec">
-                            <img src="./css/images/h4.jpg" alt="" />
-                            <span class="hot-offer">پیشنهاد ویژه</span>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="title">
-                            <p>هدست بی‌سیم فریو مدل T546</p>
-                        </div>
-                        <div class="buttons">
-                            <div class="right">
-                                <span class="price">۸۰۰ هزار تومان</span>
-                            </div>
-                            <div class="left">
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">علاقه</a>
-                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
-                                </div>
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">خرید</a>
-                                    <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i
-                    ></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="shoping-card">
-                        <div class="img-sec">
-                            <img src="./css/images/h5.jpg" alt="" />
-                            <span class="hot-offer">پیشنهاد ویژه</span>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="title">
-                            <p>هدست بی‌سیم فریو مدل T546</p>
-                        </div>
-                        <div class="buttons">
-                            <div class="right">
-                                <span class="price">۸۰۰ هزار تومان</span>
-                            </div>
-                            <div class="left">
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">علاقه</a>
-                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
-                                </div>
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">خرید</a>
-                                    <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i
-                    ></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="shoping-card">
-                        <div class="img-sec">
-                            <img src="./css/images/h6.jpg" alt="" />
-                            <span class="hot-offer">پیشنهاد ویژه</span>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="title">
-                            <p>هدست بی‌سیم فریو مدل T546</p>
-                        </div>
-                        <div class="buttons">
-                            <div class="right">
-                                <span class="price">۸۰۰ هزار تومان</span>
-                            </div>
-                            <div class="left">
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">علاقه</a>
-                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
-                                </div>
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">خرید</a>
-                                    <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i
-                    ></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="shoping-card">
-                        <div class="img-sec">
-                            <img src="./css/images/h7.jpg" alt="" />
-                            <span class="hot-offer">پیشنهاد ویژه</span>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="title">
-                            <p>هدست بی‌سیم فریو مدل T546</p>
-                        </div>
-                        <div class="buttons">
-                            <div class="right">
-                                <span class="price">۸۰۰ هزار تومان</span>
-                            </div>
-                            <div class="left">
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">علاقه</a>
-                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
-                                </div>
-                                <div class="extend-btn">
-                                    <a class="b-text" href="">خرید</a>
-                                    <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i
-                    ></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./css/images/h2.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                <p>هدست بی‌سیم فریو مدل T546</p>
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۸۰۰ هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./css/images/h3.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                <p>هدست بی‌سیم فریو مدل T546</p>
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۸۰۰ هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./css/images/h4.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                <p>هدست بی‌سیم فریو مدل T546</p>
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۸۰۰ هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./css/images/h5.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                <p>هدست بی‌سیم فریو مدل T546</p>
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۸۰۰ هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./css/images/h6.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                <p>هدست بی‌سیم فریو مدل T546</p>
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۸۰۰ هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./css/images/h7.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                <p>هدست بی‌سیم فریو مدل T546</p>
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۸۰۰ هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer>
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="right">
+            <div class="title">درباره ما</div>
+            <div class="des">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+              در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+              نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+              کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان
+              جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای
+              طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان
+              فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری
+              موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد
+              نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل
+              دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="left">
+            <div class="title">ما را در شبکه های اجتماعی دنبال کنید.</div>
+            <div class="social">
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+              <a href=""><i class="fab fa-telegram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">کلیه حقوق محفوظ می باشد. 2022©</div>
+    </footer>
 
     <script src="./js/main.js"></script>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/jquery.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
-</body>
-
+  </body>
 </html>

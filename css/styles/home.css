@@ -280,3 +280,23 @@ main {}
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.26);
     width: 80%;
 }
+
+.dragble-list img {
+    width: 70% !important;
+    margin: auto;
+}
+
+.dragble-list .title {
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+
+.dragble-list .title span {
+    font-size: 1.2em;
+    color: #444;
+    border-bottom: 1px solid #e74d3cc7;
+}
+
+.owl-stage-outer {
+    direction: ltr;
+}

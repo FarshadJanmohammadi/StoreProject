@@ -22,7 +22,7 @@ An online store project done to demonstrate its programming capabilities
 ## Demo
 
 Insert gif or link to demo:
-https://farshadjanmohammadi.github.io/StoreProject/
+https://quirky-mccarthy-d20e55.netlify.app
 
 
 ## 🚀 About Me

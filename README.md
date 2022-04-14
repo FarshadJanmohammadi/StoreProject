@@ -8,7 +8,7 @@ An online store project done to demonstrate its programming capabilities
 
 ![App Screenshot1](https://github.com/FarshadJanmohammadi/images/blob/main/store1.jpg?raw=true)
 
-![App Screenshot1](https://github.com/FarshadJanmohammadi/images/blob/main/store2.jpg?raw=true)
+
 
 ![App Screenshot1](https://github.com/FarshadJanmohammadi/images/blob/main/store3.jpg?raw=true)
 

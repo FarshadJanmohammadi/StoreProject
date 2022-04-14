@@ -17,7 +17,6 @@ https://quirky-mccarthy-d20e55.netlify.app
 ## Authors
 
 - [Farshad Janmohammadi](https://www.FarshadJanmohammadi.ir)
-- 
 
 ## Color Reference
 

@@ -4,9 +4,22 @@
 An online store project done to demonstrate its programming capabilities
 
 
+## Screenshots
+
+![App Screenshot1](https://github.com/FarshadJanmohammadi/images/blob/main/store1.jpg?raw=true)
+![App Screenshot1](https://github.com/FarshadJanmohammadi/images/blob/main/store2.jpg?raw=true)
+![App Screenshot1](https://github.com/FarshadJanmohammadi/images/blob/main/store3.jpg?raw=true)
+
+
+## Demo Online
+
+
+https://quirky-mccarthy-d20e55.netlify.app
+
 ## Authors
 
-- [@FarshadJanmohammadi](https://www.github.com/farshadjanmohammadi)
+- [Farshad Janmohammadi](https://www.FarshadJanmohammadi.ir)
+- 
 
 ## Color Reference
 
@@ -19,15 +32,12 @@ An online store project done to demonstrate its programming capabilities
 | Example Color | ![#e74c3c](https://via.placeholder.com/10/e74c3c?text=+) #e74c3c |
 
 
-## Demo
 
-Insert gif or link to demo:
-https://quirky-mccarthy-d20e55.netlify.app
 
 
 ## 🚀 About Me
 I'm a Front-end web developer with advanced skills in all stages of web development. Full familiarity in the process of user interface, testing and troubleshooting. Specialist in the design, installation, testing and maintenance of web systems. Has a diverse set of programming skills. Skilled in:
-HTML, CSS, JavaScript(ES6) ,JQuery, ReactJS, Redux, Typescript, Sass, Bootstrap, Git, GraphQL 
+HTML, CSS, JavaScript(ES6) ,JQuery, ReactJS, Redux, Next, MaterialUI, Typescript, Sass, Bootstrap, Git, TailWind
 With the ability to carry out projects individually and in groups.
 
 
@@ -39,6 +49,6 @@ With the ability to carry out projects individually and in groups.
 
 ## 🛠 Skills
 
-HTML, CSS, JavaScript(ES6) ,JQuery, ReactJS, Redux, Typescript, Sass, Bootstrap, Git, GraphQL 
+HTML, CSS, JavaScript(ES6) ,JQuery, ReactJS, Redux, Next, MaterialUI, Typescript, Sass, Bootstrap, Git, TailWind
 
 

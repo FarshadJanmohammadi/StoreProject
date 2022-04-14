@@ -1,5 +1,5 @@
 
-# Store Project
+# Store Online
 
 An online store project done to demonstrate its programming capabilities
 
